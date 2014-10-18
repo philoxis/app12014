@@ -1,0 +1,117 @@
+.ui-page{
+	
+	color: white;
+	text-shadow:none;
+	font-family: 'Maven Pro', medium;
+	text-align: center;
+
+}
+
+
+#instagram-home{
+	background: #1e9176; /* Old browsers */
+background: -moz-linear-gradient(top, #1e9176 0%, #227395 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e9176), color-stop(100%,#227395)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #1e9176 0%,#227395 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #1e9176 0%,#227395 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #1e9176 0%,#227395 100%); /* IE10+ */
+background: linear-gradient(to bottom, #1e9176 0%,#227395 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e9176', endColorstr='#227395',GradientType=0 ); /* IE6-9 */
+	background-size: cover;
+	text-align: center;
+
+}
+
+#instagram-home .ui-header{
+
+border: none;
+padding-top: 20px;
+}
+
+#instagram-home .ui-header h1{
+	font-size: 27px;
+	font-weight: 300;
+	
+	text-shadow:none;
+}
+
+ #instagram-home .ui-content{
+
+ 	color: white;
+ 
+ }
+
+ #instagram-home .ui-content input {
+	border: none;
+ 	opacity: 0.5;
+ 	font-size: 16px;
+ 	color: #b0b0b0;
+ 	margin-top: 5px;
+ 	font-family: arial;
+ 	width: 250px;
+ 	height: 40px;
+ 	text-align: center;
+
+
+ 	
+
+    /* other CSS styles */
+
+    /* round the corners */
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+
+
+}
+
+::-webkit-input-placeholder {
+   color: #b0b0b0;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #b0b0b0;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #b0b0b0;  
+}
+
+:-ms-input-placeholder {  
+   color: #b0b0b0;  
+}
+
+
+.ui-content .ui-btn{
+	background-color: #64cbf8;
+	font-family: arial;
+	font-size: 19px;
+	width: 214px;
+	text-align: center;
+	
+
+	-webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+}
+
+
+#instagram-home .ui-footer{
+
+border: none;
+}
+
+#instagram-home .ui-footer a{
+	font-size: 18px;
+	color: white;
+
+
+}
+
+#instagram-home h4{
+	font-size: 10px;
+	font-weight: 500;
+	opacity: 0.5;
+
+
+}
