@@ -5,6 +5,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 	<link rel="stylesheet" href="themes/ejemplo1.min.css" />
@@ -14,6 +15,8 @@
 
 	<script src="js/jquery-1.11.1.min.js"></script> 
 	<script src="js/jquery.mobile-1.4.3.min.js"></script> 
+	<script src="js/main.js"></script> 
+
 
 </head>
 <body>
@@ -26,13 +29,13 @@
 
 	<div role="main" class="ui-content">
 		<p>
-			<input type="text" name="correo" id="correo" value="" placeholder = "Escribe tu correo">
+			<input type="email" name="correo" id="correo" value="" placeholder = "Escribe tu correo">
 
-			<button class="ui-btn ui-corner-all">Preparar</button>
+			<button class="ui-btn ui-corner-all" id="preparar">Preparar</button>
 		</p>
 	</div><!-- /content -->
 
-	<div data-role="footer" data-position="fixed"  >
+	<div data-role="footer" data-position="fixed">
 
 		<h4>
 
@@ -43,6 +46,165 @@
 	</div>
 
 </div><!-- /page -->
+
+<div data-role="page" id="pizza-masa" class="ricapizza">
+
+	<div data-role="header" data-position="fixed">
+		<a href="#" class="back ui-btn-left ui-btn ui-btn-inline ui-mini"> <i class="fa fa-chevron-left"></i></a>
+		<h1> Masa </h1>
+		<h2> Selecciona tu masa preferida </h2>
+	</div>
+
+	<div role="main" class="ui-content">
+		
+		<div id="masa-pizza-1" data-masa="Original" class="masa-wrap"> 
+
+			<div class="masa-texto-wrap">
+
+				<div class="masa-texto-container">
+				<h3> Original <i class="fa fa-chevron-right"></i> </h3>
+				<span> Masa delgada y crujiente </span>
+
+				</div>	
+
+			</div>
+		</div>
+
+			<div id="masa-pizza-2" data-masa= "Especial" class="masa-wrap"> 
+
+			<div class="masa-texto-wrap">
+
+				<div class="masa-texto-container">
+				<h3> Especial <i class="fa fa-chevron-right"></i> </h3>
+				<span> Masa gruesa y esponjosa </span>
+
+				</div>	
+
+			</div>
+		</div>
+
+
+
+
+		</div>
+
+
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed"  >
+
+		
+
+	</div>
+
+</div><!-- /page -->
+
+<div data-role="page" id="pizza-ingredientes" class="ricapizza">
+
+	<div data-role="header" data-position="fixed">
+		<a href="#" class="back ui-btn-left ui-btn ui-btn-inline ui-mini"><i class="fa fa-chevron-left"></i></a>
+		<h1> Ingredientes </h1>
+		<a href="#" class="next ui-btn-right ui-btn ui-btn-inline ui-mini"><i class="fa fa-chevron-right"></i></a>
+		<h2> Selecciona tus ingredientes preferidos </h2>
+	</div>
+
+	<div role="main" class="ui-content">
+		
+		<div class="ui-grid-a">
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a"> <img src="img/ingredientes/ingredientes.png"> Salsa </div></div>
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a"> <img src="img/ingredientes/ingredientes-02.png">Queso </div></div>
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/ingredientes/ingredientes-03.png"> Pimiento </div></div>
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a"> <img src="img/ingredientes/ingredientes-04.png">Peperoni </div></div>
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a"> <img src="img/ingredientes/ingredientes-05.png">Champiñones </div></div>
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a"> <img src="img/ingredientes/ingredientes-06.png">Aceitunas </div></div>
+   
+</div><!-- /grid-c -->
+
+
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed"  >
+
+		
+
+	</div>
+
+</div><!-- /page -->
+
+
+<div data-role="page" id="pizza-pedido" class="ricapizza">
+
+	<div data-role="header" data-position="fixed">
+		<a href="#" class="back ui-btn-left ui-btn ui-btn-inline ui-mini"><i class="fa fa-chevron-left"></i></a>
+	
+		<h1> Pedidos </h1>
+		<h2> Confirma tu pedido </h2>
+	</div>
+
+	<div role="main" class="ui-content">
+		<div class="wrap-pedido">
+
+			<h4>Orden</h4>
+
+			<div class]="pedido">
+				<table width="100%">
+					<tr>
+						<th width="60%">Concepto</th>
+						<th width="40%">P.U.</th>
+					</tr3>
+					<tr>
+						<td class="orden">1 Pizza</td>
+						<td>$150.00</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<ul>
+								<li>Masa Original</li>
+								<li>Pepperoni</li>
+								<li>Champiñones</li>
+								<li>Aceitunas</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			<div class="total">
+				<table width="100%">
+					<tr>
+						<td width="60%">Total</td>
+						<td width="40%">$150.00</td>
+					</tr>
+				</table>
+			</div>
+
+				<a href="#">Pagar y Ordenar </a>
+
+
+			</div>
+
+
+		</div>
+		
+
+
+
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed"  >
+
+		
+
+	</div>
+
+</div><!-- /page -->
+
+	<div data-role="footer" data-position="fixed"  >
+
+		
+
+	</div>
+
+</div><!-- /page pedido -->
+
 
 </body>
 </html>

@@ -5,12 +5,13 @@
 	color: white;
 	text-shadow:none;
 	font-family: 'Lato', sans-serif;
+	text-align: center;
 
 }
 
-#pizza-home {
+#winker-home {
 	
-	background-image: url(../img/fondoaap.jpg);
+	background-color: #272c35;
 	background-size: cover;
 
 }
@@ -48,38 +49,44 @@
 	color: white;
 }
 
-#pizza-home .ui-header h1 {
+#winker-home .ui-header h1 {
 
 	font-size: 40px;
 	font-weight: 300;
-	margin: 0 20%;
 	text-shadow:none;
-	color: #FA0000;
+	color: white;
+
 }
 
-#pizza-home .ui-header h1 i {
+#winker-home .ui-header h1 i {
 	
 	color: white;
 
 }
 
-#pizza-ingredientes .ui-header h1{
+a{
+	padding: none;
+	font-size: 12px;
+	text-align: center;
+}
+
+#winker-pagina2 .ui-header h1{
 	margin: 0 10%;
 }
 
-#pizza-ingredientes .ui-header h2{
+#winker-pagina2 .ui-header h2{
 	white-space: normal;
 	font-size: 15px;
 }
 
-#pizza-home .ui-footer {
+#winker-home .ui-footer {
 
 	background-color: transparent;
 	border:none;
 
 }
 
-#pizza-home .ui-footer h4 {
+#winker-home .ui-footer h4 {
 
 	font-size: 15px;
 	font-weight: 300;
@@ -89,13 +96,18 @@
 
 }
 
-#pizza-home .ui-content {
+#winker-home .ui-content {
 
-	padding-top: 25%;
+	padding-top: 0%;
 
 }
 
-#pizza-home .ui-content .ui-input-text {
+img{
+	margin-top: 50px;
+	margin-left: 25px;
+}
+
+#winker-home .ui-content .ui-input-text {
 	
 	box-shadow: none;
 	border: none;
@@ -106,7 +118,7 @@
 
 }
 
-#pizza-home .ui-content button {
+#winker-home .ui-content button {
 	
 	box-shadow: none;
 	border: none;
@@ -123,7 +135,7 @@
 }
 
 
-#pizza-home .ui-content button:hover {
+#winker-home .ui-content button:hover {
 	
 	background-color: white;
 	color: black;
@@ -138,14 +150,14 @@
 
 }
 
-.ricapizza {
+.ricawinker {
 	
-	background-image: url(../img/fondo2.jpg);
+	background-color: #272c35;
 	background-size: cover;
 
 }
 
-.ricapizza .ui-header h1{
+.ricawinker .ui-header h1{
 
 	font-size: 40px;
 	font-weight: 300;
@@ -159,7 +171,7 @@
 
 }
 
-.ricapizza .ui-header h2{
+.ricawinker .ui-header h2{
 
 	font-size: 18px;
 	font-weight: 300;
@@ -172,16 +184,16 @@
 
 }
 
-.ricapizza .ui-content{
+.ricawinker .ui-content{
 	padding: 0px;
 }
 
-#pizza-masa .masa-wrap{
+#winker-pagina1 .pagina1-wrap{
 
 	width: 65%;
-	height: 190px;
-	background-image: url(../img/fondo_masa.png);
-	margin: 0 auto;
+	height: 50px;
+	background-color: #272c35;
+	margin: 50px auto;
 	background-size: 90%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -189,84 +201,70 @@
 	display: table;
 }
 
-#pizza-masa .masa-wrap:hover{
+#winker-pagina1 .pagina1-wrap:hover{
 
 	opacity: 0.9;
 
 }
-#pizza-masa .masa-wrap .masa-texto-wrap{
+#winker-pagina1 .pagina1-wrap .pagina1-texto-wrap{
 
 	display: table-cell;
 	vertical-align: middle;
 }
 
-#pizza-masa .masa-wrap .masa-texto-wrap .masa-texto-container{
+#winker-pagina1 .pagina1-wrap .pagina1-texto-wrap .pagina1-texto-container{
 
-	width: 80%;
 	margin: 0 auto;
 }
 
-#pizza-masa .masa-texto-container h3{
-	color: #322113;
+#winker-pagina1 .pagina1-texto-container h3{
+	color: white;
 	margin: 6px;
 }
 
-#pizza-masa .masa-texto-container span{
+#winker-pagina1 .pagina1-texto-container span{
 	color: #322113;
 	font-weight: 300;
 }	
 
-#pizza-masa .masa-texto-container h3:hover{
-		color:red;
+#winker-pagina1 .pagina1-texto-container h3:hover{
+		color: gray;
 }
 
-#pizza-ingredientes .ui-content {
+#winker-pagina2 .ui-content {
 
-	padding: 0 15px;
+	padding: 40px 15px;
 
 }
 
-#pizza-ingredientes .ui-bar {
+#winker-pagina2 .ui-bar {
 	background-color: transparent;
 	border: none;
 	text-align: center;
 	font-weight: 300;
-	height: 70%;
+	height: 20%;
 }
 
-#pizza-ingredientes .ui-bar img{
-	height: 76px;
+#winker-pagina2 .ui-bar img{
+
 	display: block;
-	margin: 0 auto;
+	margin: 10px auto;
 }
 
-#pizza-ingredientes .ui-bar img:hover {
-	opacity: 1;
+#winker-pagina2 .ui-bar img:hover {
+	opacity: .1;
 } 
 
 
-#pizza-pedido .wrap-pedido {
+#winker-pagina3 .wrap-pagina3 {
 	margin: 0 12%;
 	padding: 20px;
-	color:black;
+	color: white;
 	font-weight: 300;
 	margin-top: 15px;
 
-	box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.80);
-
-
-
-	background: #c6c3b1; /* Old browsers */
-background: -moz-linear-gradient(top,  #c6c3b1 0%, #fbf7ec 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c6c3b1), color-stop(100%,#fbf7ec)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #c6c3b1 0%,#fbf7ec 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #c6c3b1 0%,#fbf7ec 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #c6c3b1 0%,#fbf7ec 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #c6c3b1 0%,#fbf7ec 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c3b1', endColorstr='#fbf7ec',GradientType=0 ); /* IE6-9 */
-
 }
-#pizza-pedido .wrap-pedido h4{
+#winker-pagina3 .wrap-pagina3 h4{
 	font-weight: 300;
 	font-size: 16px;
 	margin: 10px 0;
@@ -274,23 +272,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c3b1', end
 	padding-bottom: 10px;
 	
 }
-#pizza-pedido .wrap-pedido th{
+#winker-pagina3 .wrap-pagina3 th{
 	font-weight: 300;
 	font-size: 16px;
 	text-align: left;
 }
 
-#pizza-pedido .wrap-pedido .total{
-	border-bottom: 1px solid #8e8e8e;
+#winker-pagina3 .wrap-pagina3 .total{
+	border-bottom: 1px solid white;
 	padding-bottom: 10px;
 
 }
-#pizza-pedido .wrap-pedido .orden{
+#winker-pagina3 .wrap-pagina3 .orden{
 	font-weight: 400;
 	
 }
 
-#pizza-pedido .wrap-pedido a {
+#winker-pagina3 .wrap-pagina3 a {
 	border: 1px solid #4d4d4d;
 	padding-top: 7px 20px;
 	text-align: center;
